@@ -1,0 +1,111 @@
+create table person (
+	id INT,
+	person_number VARCHAR(12),
+	first_name VARCHAR(500),
+	last_name VARCHAR(500),
+	age INT,
+	email VARCHAR(500),
+	street VARCHAR(500),
+	zip VARCHAR(500),
+	city VARCHAR(500)
+);
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (1, 7339988146, 'Gustavus', '97 Menomonie Pass', 18, null, false, '5410', 'Milagros');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (2, 2099419218, 'Dorice', '1 Menomonie Road', 29, null, true, null, 'Faaa');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (3, 4775741378, 'Morly', '536 Comanche Junction', 17, null, false, '8711', 'San Fernando');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (4, 4775741378, 'Whitman', '3 Sutherland Trail', 92, null, true, null, 'Kohtla-Järve');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (5, 7470023682, 'Isador', '76009 East Hill', 65, null, false, '98828', 'Tadine');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (6, 3272511316, 'Prudi', '42690 1st Hill', 79, null, true, null, 'Santiago de Baney');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (7, 3243033539, 'Wendy', '305 Sunfield Parkway', 21, null, false, null, 'Mene de Mauroa');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (8, 3272511316, 'Sean', '82 Declaration Hill', 76, null, false, null, 'Essang');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (9, 2099419218, 'Valentin', '4097 Melody Crossing', 90, null, false, null, 'Batuan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (10, 7470023682, 'Donovan', '504 Bowman Center', 68, null, false, '11511', 'Bayaguana');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (11, 7377956557, 'Pedro', '1976 Graedel Parkway', 93, null, false, '152429', 'Aquitania');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (12, 2099419218, 'Reuben', '51 Hermina Drive', 51, null, false, null, 'Pedraza La Vieja');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (13, 2099419218, 'Devondra', '6850 West Hill', 44, null, false, null, 'Capellanía');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (14, 4775741378, 'Clay', '65 Hagan Street', 67, null, true, null, 'Katsikás');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (15, 2099419218, 'Richmond', '4771 Mesta Crossing', 44, null, false, null, 'Kaem');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (16, 3272511316, 'Giles', '8 Clyde Gallagher Alley', 6, null, true, null, 'Capitán Bado');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (17, 9084281540, 'Lynsey', '18844 Sachtjen Crossing', 54, null, false, null, 'Makata');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (18, 9084281540, 'Erhart', '54 Almo Street', 97, null, false, '999-0141', 'Takayama');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (19, 7339988146, 'May', '57 Trailsway Avenue', 71, null, false, null, 'Dongguan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (20, 2099419218, 'Miltie', '12 Manufacturers Hill', 0, null, false, '4770-354', 'Mouquim');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (21, 3243033539, 'Burk', '0 East Street', 78, null, true, null, 'Mahaica Village');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (22, 2099419218, 'Carlee', '51200 Shelley Avenue', 42, null, false, null, 'Sanxianling');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (23, 7377956557, 'Ardenia', '864 Pearson Terrace', 26, null, false, '11801', 'Curridabat');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (24, 9084281540, 'Deidre', '768 Portage Center', 97, null, true, '155381', 'Meget');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (25, 9084281540, 'Ev', '4391 Coolidge Point', 88, null, false, '6534', 'Balingoan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (26, 9084281540, 'Artie', '87 Di Loreto Pass', 7, null, true, null, 'Qingyuan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (27, 7339988146, 'Royal', '79 Farmco Hill', 63, null, true, null, 'Aricapampa');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (28, 9084281540, 'Ozzy', '97498 Division Place', 15, null, false, '7116', 'Sigaboy');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (29, 7339988146, 'Riki', '69693 Utah Parkway', 16, null, true, '172115', 'Vasil’yevskiy Mokh');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (30, 7339988146, 'Mirabella', '5 Loftsgordon Alley', 8, null, true, null, 'Dongfu');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (31, 9084281540, 'Skell', '299 Manufacturers Trail', 31, null, false, '397551', 'Losevo');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (32, 7470023682, 'Alvinia', '137 Stuart Circle', 88, null, false, null, 'Camplong');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (33, 3272511316, 'Pepita', '8792 Grim Crossing', 60, null, true, '0919', 'Monamon');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (34, 4775741378, 'Luciana', '17285 Magdeline Crossing', 58, null, false, '05-280', 'Jadów');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (35, 2099419218, 'Kellyann', '0304 Hollow Ridge Place', 50, null, false, null, 'Pameungpeuk');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (36, 9084281540, 'Manfred', '9 Rigney Way', 44, null, false, '456404', 'Timiryazevskiy');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (37, 9084281540, 'Nicki', '20346 Red Cloud Center', 35, null, true, null, 'Mayang');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (38, 2099419218, 'Fancy', '99 Acker Plaza', 96, null, false, null, 'Huaniao');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (39, 2099419218, 'Lacey', '4206 Pearson Street', 49, null, false, '678711', 'Dzhebariki-Khaya');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (40, 7339988146, 'Clarine', '9014 Gerald Circle', 36, null, true, null, 'Tirana');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (41, 7339988146, 'Don', '00 Bultman Trail', 83, null, false, '93722', 'Kuching');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (42, 7339988146, 'Aldrich', '4042 5th Road', 54, null, true, '71009 CEDEX', 'Mâcon');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (43, 9084281540, 'Myra', '8622 Golden Leaf Junction', 33, null, true, null, 'Bardiyā');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (44, 2099419218, 'Barbey', '1 Bashford Trail', 13, null, true, '16000-000', 'Araçatuba');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (45, 7339988146, 'Rhonda', '92 Meadow Ridge Plaza', 36, null, true, '93722', 'Kuching');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (46, 4775741378, 'Sharron', '90 Mendota Avenue', 79, null, true, null, 'Yuty');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (47, 4775741378, 'Anthiathia', '4274 Erie Alley', 88, null, false, null, 'Sioguí Abajo');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (48, 7377956557, 'Carine', '810 Acker Way', 64, null, true, '28015', 'Madrid');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (49, 7377956557, 'Sebastien', '8 Mallard Hill', 97, null, false, null, 'Betaf');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (50, 4775741378, 'Maxy', '28529 Sullivan Road', 100, null, true, null, 'Valera');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (51, 9084281540, 'Lenard', '6908 Eastlawn Pass', 64, null, true, '41231', 'Uurainen');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (52, 3272511316, 'Heather', '92 David Drive', 16, null, false, '59250', 'Jalālpur Pīrwāla');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (53, 7339988146, 'Clary', '4463 Bultman Street', 82, null, false, '11400-000', 'Guarujá');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (54, 4775741378, 'Geraldine', '4391 Burning Wood Junction', 69, null, false, '2635-034', 'Rio de Mouro');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (55, 3243033539, 'Bryan', '93 Daystar Avenue', 12, null, true, '458 31', 'Färgelanda');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (56, 7470023682, 'Colan', '6 Burrows Avenue', 52, null, false, '542018', 'Herrán');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (57, 7377956557, 'Simmonds', '551 Carpenter Hill', 76, null, true, '2965-207', 'Agualva de Cima');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (58, 4775741378, 'Rori', '53 Gerald Place', 7, null, true, null, 'Georgīevka');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (59, 3272511316, 'Ermina', '11 Independence Road', 62, null, true, null, 'Perches');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (60, 9084281540, 'Brittaney', '20363 Grover Terrace', 98, null, true, '20078', 'Washington');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (61, 3243033539, 'Vanna', '71 Westport Center', 80, null, true, null, 'Yanjiang');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (62, 4775741378, 'Maureene', '3043 Meadow Vale Pass', 47, null, false, null, 'Zizhao');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (63, 4775741378, 'Vania', '8014 Butterfield Hill', 89, null, true, '14019', 'Cunén');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (64, 7377956557, 'Curr', '74 Marquette Plaza', 18, null, false, null, 'Maoyang');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (65, 2099419218, 'Scottie', '44600 Lighthouse Bay Circle', 13, null, false, '0591', 'Oslo');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (66, 7339988146, 'Hewet', '488 Maple Lane', 40, null, false, null, 'Chkalov');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (67, 3272511316, 'Stanford', '1 Dunning Park', 45, null, true, null, 'Kandangan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (68, 7470023682, 'Clevie', '4874 Fuller Street', 79, null, false, '182105', 'Rakitnoye');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (69, 9084281540, 'Justis', '200 Mayer Alley', 29, null, false, '191017', 'Buenos Aires');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (70, 7470023682, 'Filip', '8324 Del Mar Street', 76, null, true, '13610-000', 'Leme');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (71, 3272511316, 'Robinett', '23876 Heffernan Lane', 23, null, false, null, 'Henggang');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (72, 4775741378, 'Sibilla', '3143 Rockefeller Center', 19, null, true, null, 'Pangkalan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (73, 7470023682, 'Yul', '37 4th Avenue', 1, null, true, '607483', 'Pil’na');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (74, 7377956557, 'Kincaid', '8 David Plaza', 46, null, false, '5210-325', 'Fonte da Aldeia');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (75, 2099419218, 'Richart', '5 Marcy Trail', 34, null, false, '912 24', 'Vilhelmina');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (76, 7470023682, 'Hynda', '9125 Morning Circle', 78, null, true, '6712', 'Binulasan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (77, 3243033539, 'Leela', '2 Oak Valley Circle', 20, null, true, null, 'Xiangshan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (78, 3243033539, 'Barty', '2683 Dapin Circle', 53, null, false, '2017', 'Masantol');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (79, 7339988146, 'Reggy', '59 Sutteridge Avenue', 11, null, true, null, 'Yehud');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (80, 7339988146, 'Olly', '2317 Messerschmidt Lane', 90, null, true, '2614', 'Delft');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (81, 9084281540, 'Babbette', '736 Lakeland Terrace', 29, null, false, '174 44', 'Sundbyberg');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (82, 3272511316, 'Vinni', '6374 Meadow Vale Way', 42, null, false, '56564', 'El Mirador');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (83, 7377956557, 'Kipp', '56 Morrow Lane', 42, null, true, '1054', 'Tabonok');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (84, 7339988146, 'Hardy', '69 North Court', 22, null, false, '95422', 'Benito Juarez');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (85, 7470023682, 'Linnea', '35 Kinsman Point', 45, null, true, '352808', 'Tuapse');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (86, 3243033539, 'Alecia', '7 Ruskin Pass', 78, null, true, '132018', 'San Juan Nepomuceno');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (87, 9084281540, 'Josh', '84464 Bay Hill', 97, null, false, null, 'Hengfeng');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (88, 7339988146, 'Roobbie', '71 Gina Lane', 30, null, false, null, 'Ikalamavony');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (89, 3272511316, 'Vite', '13402 Steensland Way', 43, null, false, '0270', 'Oslo');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (90, 9084281540, 'Theodor', '31 Clove Circle', 9, null, false, '21-306', 'Czemierniki');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (91, 7339988146, 'Brantley', '414 Pine View Avenue', 32, null, true, null, 'Kerema');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (92, 9084281540, 'Gearard', '3 Barnett Pass', 39, null, false, null, 'Norakert');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (93, 7470023682, 'Matty', '9522 Hollow Ridge Pass', 87, null, false, '59-940', 'Węgliniec');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (94, 2099419218, 'Murial', '4122 Tennyson Point', 68, null, false, null, 'Akkol’');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (95, 4775741378, 'Latia', '457 Acker Junction', 77, null, true, '630553', 'Novolugovoye');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (96, 7470023682, 'Ashia', '2 Cottonwood Hill', 46, null, false, '4880-106', 'Tijão');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (97, 9084281540, 'Jillian', '70722 Prentice Park', 97, null, true, '4755-121', 'Chorente');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (98, 4775741378, 'Ethelbert', '40569 Sage Parkway', 24, null, false, null, 'Mērsrags');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (99, 7377956557, 'Myron', '97 Hermina Avenue', 12, null, true, '87028', 'Labuan');
+insert into person (id, person_number, first_name, last_name, age, email, street, zip, city) values (100, 9084281540, 'Byran', '26540 Kinsman Terrace', 31, null, true, '3040-723', 'Pereiros');
