@@ -1,0 +1,55 @@
+create table instructor (
+	id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
+	employment_id VARCHAR(50),
+	person_id INT
+);
+insert into instructor (id, employment_id, person_id) values (1, '512-92-4164', 76);
+insert into instructor (id, employment_id, person_id) values (4, '843-82-4023', 70);
+insert into instructor (id, employment_id, person_id) values (8, '503-14-0531', 37);
+insert into instructor (id, employment_id, person_id) values (5, '129-14-1053', 78);
+insert into instructor (id, employment_id, person_id) values (4, '854-34-7197', 18);
+insert into instructor (id, employment_id, person_id) values (5, '767-04-2916', 48);
+insert into instructor (id, employment_id, person_id) values (9, '271-01-9930', 62);
+insert into instructor (id, employment_id, person_id) values (2, '222-94-8058', 97);
+insert into instructor (id, employment_id, person_id) values (1, '328-62-5692', 60);
+insert into instructor (id, employment_id, person_id) values (1, '509-96-8337', 20);
+insert into instructor (id, employment_id, person_id) values (3, '785-28-7985', 81);
+insert into instructor (id, employment_id, person_id) values (4, '252-10-0625', 27);
+insert into instructor (id, employment_id, person_id) values (8, '319-65-7737', 29);
+insert into instructor (id, employment_id, person_id) values (9, '738-65-5961', 17);
+insert into instructor (id, employment_id, person_id) values (4, '717-34-5995', 35);
+insert into instructor (id, employment_id, person_id) values (9, '119-70-2002', 51);
+insert into instructor (id, employment_id, person_id) values (7, '608-17-3032', 87);
+insert into instructor (id, employment_id, person_id) values (2, '475-81-5876', 74);
+insert into instructor (id, employment_id, person_id) values (1, '496-51-8792', 2);
+insert into instructor (id, employment_id, person_id) values (1, '265-55-0594', 54);
+insert into instructor (id, employment_id, person_id) values (7, '578-98-5940', 40);
+insert into instructor (id, employment_id, person_id) values (3, '145-62-2331', 67);
+insert into instructor (id, employment_id, person_id) values (7, '669-90-7865', 78);
+insert into instructor (id, employment_id, person_id) values (9, '427-07-4428', 89);
+insert into instructor (id, employment_id, person_id) values (3, '591-36-4497', 84);
+insert into instructor (id, employment_id, person_id) values (1, '563-85-5303', 31);
+insert into instructor (id, employment_id, person_id) values (4, '566-63-5186', 38);
+insert into instructor (id, employment_id, person_id) values (8, '148-17-3840', 12);
+insert into instructor (id, employment_id, person_id) values (4, '436-35-4194', 69);
+insert into instructor (id, employment_id, person_id) values (2, '296-63-4411', 78);
+insert into instructor (id, employment_id, person_id) values (7, '222-55-9725', 80);
+insert into instructor (id, employment_id, person_id) values (2, '585-19-0909', 51);
+insert into instructor (id, employment_id, person_id) values (2, '691-47-6921', 56);
+insert into instructor (id, employment_id, person_id) values (1, '842-71-9503', 51);
+insert into instructor (id, employment_id, person_id) values (7, '561-72-1823', 14);
+insert into instructor (id, employment_id, person_id) values (5, '515-22-5502', 39);
+insert into instructor (id, employment_id, person_id) values (9, '815-09-7291', 51);
+insert into instructor (id, employment_id, person_id) values (7, '504-59-3281', 42);
+insert into instructor (id, employment_id, person_id) values (4, '626-25-3341', 41);
+insert into instructor (id, employment_id, person_id) values (5, '369-26-2181', 35);
+insert into instructor (id, employment_id, person_id) values (7, '584-94-0683', 83);
+insert into instructor (id, employment_id, person_id) values (1, '133-56-4922', 62);
+insert into instructor (id, employment_id, person_id) values (5, '514-99-3428', 53);
+insert into instructor (id, employment_id, person_id) values (2, '313-61-7720', 66);
+insert into instructor (id, employment_id, person_id) values (8, '326-32-3373', 45);
+insert into instructor (id, employment_id, person_id) values (9, '468-75-2535', 55);
+insert into instructor (id, employment_id, person_id) values (7, '127-98-0777', 43);
+insert into instructor (id, employment_id, person_id) values (6, '383-76-8255', 13);
+insert into instructor (id, employment_id, person_id) values (7, '462-97-0589', 32);
+insert into instructor (id, employment_id, person_id) values (9, '351-55-9584', 18);
