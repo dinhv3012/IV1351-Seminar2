@@ -1,6 +1,6 @@
 CREATE TABLE email (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- email VARCHAR(500)
+ email VARCHAR(500) NOT NULL
 );
 
 ALTER TABLE email ADD CONSTRAINT PK_email PRIMARY KEY (id);
@@ -18,7 +18,7 @@ ALTER TABLE instruments ADD CONSTRAINT PK_instruments PRIMARY KEY (id);
 
 CREATE TABLE person (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- person_number UNIQUE VARCHAR(12) NOT NULL,
+ person_number VARCHAR(12) NOT NULL,
  first_name VARCHAR(500) NOT NULL,
  last_name VARCHAR(500) NOT NULL,
  age INT,
@@ -40,7 +40,7 @@ ALTER TABLE person_email ADD CONSTRAINT PK_person_email PRIMARY KEY (person_id,e
 
 CREATE TABLE phone (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
- phone_no VARCHAR(500)
+ phone_no VARCHAR(500) NOT NULL
 );
 
 ALTER TABLE phone ADD CONSTRAINT PK_phone PRIMARY KEY (id);
@@ -82,7 +82,7 @@ ALTER TABLE student_siblings ADD CONSTRAINT PK_student_siblings PRIMARY KEY (stu
 
 
 CREATE TABLE studio (
- studio_id UNIQUE VARCHAR(100) NOT NULL,
+ studio_id VARCHAR(100) NOT NULL,
  street VARCHAR(500),
  zip VARCHAR(500),
  city VARCHAR(500),
@@ -90,13 +90,13 @@ CREATE TABLE studio (
  available_times VARCHAR(500) NOT NULL
 );
 
-ALTER TABLE studio ADD CONSTRAINT PK_studio PRIMARY KEY (studio_id UNIQUE);
+ALTER TABLE studio ADD CONSTRAINT PK_studio PRIMARY KEY (studio_id);
 
 
 CREATE TABLE instructor (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  person_id INT NOT NULL,
- employment_id UNIQUE VARCHAR(500) NOT NULL
+ employment_id VARCHAR(500) NOT NULL
 );
 
 ALTER TABLE instructor ADD CONSTRAINT PK_instructor PRIMARY KEY (id);
@@ -113,12 +113,12 @@ ALTER TABLE instruments_type ADD CONSTRAINT PK_instruments_type PRIMARY KEY (ins
 CREATE TABLE lesson (
  id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  price_id INT NOT NULL,
- studio_id UNIQUE VARCHAR(500),
+ studio_id VARCHAR(500),
  instrument_type VARCHAR(500) NOT NULL,
  min_of_students INT,
  max_of_students INT,
  amount_of_students INT,
- time TIMESTAMP(10),
+ time TIMESTAMP(6),
  target_genre VARCHAR(500) NOT NULL,
  student_id INT NOT NULL,
  lesson_type VARCHAR(500),
@@ -147,8 +147,8 @@ ALTER TABLE person_phone ADD CONSTRAINT PK_person_phone PRIMARY KEY (person_id,p
 CREATE TABLE rent_instrument (
  rent_id INT GENERATED ALWAYS AS IDENTITY NOT NULL,
  instrument_id INT NOT NULL,
- rental_start TIMESTAMP(10),
- rental_end TIMESTAMP(10),
+ rental_start TIMESTAMP(6),
+ rental_end TIMESTAMP(6),
  student_id INT NOT NULL
 );
 
@@ -181,7 +181,7 @@ ALTER TABLE instruments_type ADD CONSTRAINT FK_instruments_type_0 FOREIGN KEY (i
 
 
 ALTER TABLE lesson ADD CONSTRAINT FK_lesson_0 FOREIGN KEY (price_id) REFERENCES price_category (id);
-ALTER TABLE lesson ADD CONSTRAINT FK_lesson_1 FOREIGN KEY (studio_id UNIQUE) REFERENCES studio (studio_id UNIQUE);
+ALTER TABLE lesson ADD CONSTRAINT FK_lesson_1 FOREIGN KEY (studio_id) REFERENCES studio (studio_id);
 ALTER TABLE lesson ADD CONSTRAINT FK_lesson_2 FOREIGN KEY (student_id) REFERENCES student (id);
 
 
